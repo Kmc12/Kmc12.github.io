@@ -5,6 +5,9 @@
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    {% include css.html %}
+    {% include scripts.html %}
+
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
@@ -13,6 +16,7 @@
     <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   </head>
   <body>
-  <h1>My Site</h1>
+    {% include header.html %}
+    {{ content }}
   </body>
 </html>
