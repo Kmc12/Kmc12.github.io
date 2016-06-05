@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kmc12/Kmc12.github.io/issues"
   },
-  "homepage": "https://github.com/Kmc12/Kmc12.github.io#readme"
+  "homepage": "https://github.com/Kmc12/Kmc12.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^4.1.1"
+  }
 }
